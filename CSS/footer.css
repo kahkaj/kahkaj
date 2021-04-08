@@ -1,0 +1,37 @@
+/* 3.9- Footer section */
+.footer {
+    background-color: var(--blackColor);
+    text-align: center;
+    padding: 60px 0;
+}
+
+.footer-links {
+    margin: 20px 0 40px;
+}
+
+.footer-links li {
+    display: inline-block;
+}
+
+.footer-links li a {
+    background-color: var(--mainColor);
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 0 3px;
+    border-radius: 3px;
+}
+
+.footer-links li a i {
+    color: var(--whiteColor);
+    line-height: 40px;
+}
+
+.copyright {
+    color: var(--grayColor);
+    font-size: 14px;
+}
+
+.copyright span {
+    color: var(--mainColor);
+}

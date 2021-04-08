@@ -1,0 +1,90 @@
+/* 3.8- Contact Section */
+.contact-content {
+    margin-bottom: 50px;
+}
+
+.contact-item {
+    width: 30%;
+    text-align: center;
+}
+
+.contact-item.mg {
+    margin: 0 5%;
+}
+
+.contact-item .icon {
+    color: var(--mainColor);
+    margin-bottom: 20px;
+}
+
+.contact-item-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-item-text {
+    color: var(--grayColor);
+}
+
+.contact-form {
+    width: 65%;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-form input {
+    height: 35px;
+    margin-bottom: 18px;
+}
+
+.contact-form-top {
+    width: 100%;
+}
+
+.contact-form-top input {
+    width: 49%;
+}
+
+.contact-form-top input.mg {
+    margin-right: 2%;
+}
+
+.contact-form textarea {
+    margin-bottom: 25px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: var(--placeholderColor);
+    font-family: 'Varela Round', sans-serif;
+    font-size: 14px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: var(--mainColor);
+    border: 2px solid var(--mainColor);
+}
+
+.contact-form-bottom input,
+.contact-form textarea {
+    width: 100%;
+}
+
+.contact-form .btn {
+    min-width: 200px;
+    padding: 15px 0;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    font-size: 18px;
+    color: var(--whiteColor);
+    background-color: var(--mainColor);
+}

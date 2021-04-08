@@ -1,0 +1,79 @@
+/* 3.1- Header */
+.header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.header-content {
+    /* overflow: hidden;  To solve float problem  */
+}
+
+.header .logo {
+    width: 40%;
+}
+
+.header .logo img {
+    width: 25%;
+    margin-top: 10px;
+}
+
+.header .nav {
+    width: 60%;
+    text-align: center;
+}
+
+.header .nav > li {
+    display: inline-block;
+    text-align: center;
+}
+
+.header .nav > li > a {
+    color: var(--whiteColor);
+    display: block;
+    padding: 30px 15px;
+    font-size: 14px;
+}
+
+.header .nav > li > a::after,
+.header .nav > li > a.active::after,
+.header .nav > li > a:hover::after {
+    content: "";
+    margin-top: 2px;
+    display: block;
+    width: 0;
+    height: 3px;
+}
+
+.header .nav > li > a.active::after,
+.header .nav > li > a:hover::after {
+    background-color: var(--mainColor);
+    width: 100%;
+    transition: width 0.5s;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 75%;
+    background-color: var(--mainColor);
+    width: 120px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s;
+}
+
+.dropdown-menu a {
+    color: var(--whiteColor);
+    display: block;
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}

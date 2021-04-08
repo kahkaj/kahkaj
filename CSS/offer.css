@@ -1,0 +1,35 @@
+/* 3.5- offer Section */
+.offer-item {
+    position: relative;
+    width: 31%;
+    margin-bottom: 20px;
+    border: 1px solid var(--whiteGrayColor);
+    padding: 25px 15px 25px 70px;
+}
+
+
+.offer-item:hover .offer-item-title {
+    color: var(--whiteGrayColor);
+    transition: color 0.5s;
+}
+.offer-item.middle {
+    margin: 0 3.5%;
+}
+
+.offer-item .icon {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    color: var(--mainColor);
+}
+
+.offer-item-title {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.offer-item-desc {
+    text-transform: capitalize;
+    line-height: 1.6;
+    color: var(--grayColor);
+}

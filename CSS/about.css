@@ -1,0 +1,35 @@
+/* 3.3- About Section */
+.about-item {
+    width: 30%;
+    text-align: center;
+    border: 1px solid var(--whiteGrayColor);
+    padding: 50px 20px;
+}
+
+.about-item.middle {
+    margin: 0 5%;
+}
+
+.about-item .icon {
+    color: var(--mainColor);
+    margin-bottom: 10px;
+}
+
+.about-item-title {
+    margin-bottom: 10px;
+    transition: color 0.5s;
+}
+
+.about-item-desc {
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: var(--grayColor);
+}
+
+.about-item:hover .about-item-title {
+    color: var(--whiteColor);
+}
+
+.about-item-link {
+    color: var(--mainColor);
+}
